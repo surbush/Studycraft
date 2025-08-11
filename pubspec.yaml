@@ -16,7 +16,7 @@ dependencies:
   path_provider: ^2.1.2
   csv: ^6.0.0
   flutter_local_notifications: ^17.0.0
-  app_usage: ^3.0.2
+  app_usage: ^4.0.1
   animated_tree_view: ^2.2.0
 
 dev_dependencies:
