@@ -1,4 +1,4 @@
-import 'subtopic.dart';
+import 'subtopics.dart';
 
 class Topic {
   String id;
