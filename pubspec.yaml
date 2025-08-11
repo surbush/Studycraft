@@ -1,11 +1,11 @@
 name: studycraft
-description: Subash
+description: StudyCraft - Smart Study Planner
 publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.3.0 <4.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -16,7 +16,8 @@ dependencies:
   path_provider: ^2.1.2
   csv: ^6.0.0
   flutter_local_notifications: ^17.0.0
-  app_usage: ^4.0.1
+  # Removing app_usage as it might cause compatibility issues
+  # app_usage: ^4.0.1
   animated_tree_view: ^2.2.0
 
 dev_dependencies:
