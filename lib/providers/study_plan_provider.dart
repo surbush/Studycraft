@@ -28,16 +28,12 @@ class StudyPlanProvider with ChangeNotifier {
     await loadSubjects();
   }
 
-  // Similarly add units, chapters, topics handling methods
-  // For now, start with subjects, then we can add more
-}
-
-
   /// Import a small set of sample subjects/units/chapters to help evaluate the app.
   /// This function will only insert sample data if there are no subjects yet.
   Future<void> importSampleData() async {
     final current = await _dbHelper.getSubjects();
     if (current.isNotEmpty) return;
+    
     // A compact sample dataset suited for premedical study (IOM/BPKIHS/CEE style)
     final samples = [
       {
