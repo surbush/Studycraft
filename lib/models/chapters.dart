@@ -1,4 +1,4 @@
-import 'topic.dart';
+import 'topics.dart';
 
 class Chapter {
   String id;
